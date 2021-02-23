@@ -1,0 +1,30 @@
+{
+  "name": "m-13",
+  "version": "1.0.0",
+  "description": "Mobile testing for Android",
+  "main": "index.js",
+  "scripts": {
+    "test: desktop": "protractor protractor.dektop.config.js",
+    "test: mobile": "protractor protractor.mobile.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palina-Dzmitrovich/M-13.git"
+  },
+  "keywords": [
+    "Android",
+    "Appium"
+  ],
+  "author": "Palina Dzmitrovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Palina-Dzmitrovich/M-13/issues"
+  },
+  "homepage": "https://github.com/Palina-Dzmitrovich/M-13#readme",
+  "dependencies": {
+    "appium-chromedriver": "^4.26.4",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "protractor": "^7.0.0"
+  }
+}
